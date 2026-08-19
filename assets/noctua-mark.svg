@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title">
+  <title>NOCTUA</title>
+  <defs>
+    <linearGradient id="ring" x1="28" y1="20" x2="174" y2="181" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9cb6ff"/><stop offset="1" stop-color="#506ddb"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="49" y1="57" x2="148" y2="151" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#927cff"/><stop offset="1" stop-color="#5fbdf5"/>
+    </linearGradient>
+    <radialGradient id="night" cx=".5" cy=".36" r=".72"><stop stop-color="#344b98"/><stop offset="1" stop-color="#0b1020"/></radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="94" fill="url(#night)" stroke="url(#ring)" stroke-width="4"/>
+  <path fill="url(#wing)" d="M31 68 86 104v28L31 96V68Zm138 0L114 104v28l55-36V68Z"/>
+  <path fill="#86cfff" d="m45 121 41 27v25l-41-32v-20Zm110 0-41 27v25l41-32v-20Z"/>
+  <circle cx="100" cy="111" r="13" fill="#e1dcff"/>
+  <circle cx="100" cy="111" r="5" fill="#7a5cff"/>
+</svg>
